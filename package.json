@@ -4,13 +4,15 @@
  "description": "Todos REST API",
  "main": "server.js",
  "scripts": {
-   "test": "echo "Error: no test specified" && exit 1"
-  },
+  "start": "node server.js",
+  "node-version": "node -v"
+ },
  "author": "Me",
  "license": "ISC",
  "dependencies": {
-   "express": "^4.16.4",
-   "md5": "^2.2.1",
-   "sqlite3": "^4.0.4"
-  }
+  "consign": "latest",
+  "express": "^4.16.4",
+  "md5": "^2.2.1",
+  "sqlite-sync": "^0.3.9"
+ }
 }
